@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Other Input Elements</title>
+</head>
+
+<body>
+    <form action="/server">
+        <!-- Check Box Input Element -->
+        <div align="center">
+            <input type="checkbox" id="check" name="check">
+            <label for="check">I am 18+</label><br><br>
+        </div>
+        <hr style="width: 50%;">
+        <!-- Radio Button Input Element -->
+        <div align="center">
+            <h4>Choose any one:</h4>
+            <input type="radio" name="fruit" id="apple" value="apple">
+            <label for="apple">Apple</label>
+            <input type="radio" name="fruit" id="orange" value="orange">
+            <label for="orange">Orange</label>
+            <input type="radio" name="fruit" id="mango" value="mango">
+            <label for="mango">Mango</label><br><br>
+        </div>
+        <hr style="width: 50%;">
+                <!-- Check Box as Grouped Input Element -->
+        <div align="center">
+            <h4>Choose your Subject:</h4>
+            <input type="checkbox" id="math" name="sub" value="math">
+            <label for="math">Math</label><br><br>
+            <input type="checkbox" id="sci" name="sub" value="science">
+            <label for="sci">Science</label><br><br>
+            <input type="checkbox" id="eng" name="sub" value="english">
+            <label for="eng">English</label><br><br>
+            <input type="checkbox" id="cs" name="sub" value="computer science">
+            <label for="cs">Computer Science</label><br><br>
+        </div>
+        <hr style="width: 50%;">
+        <br>
+                <!-- Drop Down Input Element -->
+        <div align="center">
+            <b>Choose your birth month:&nbsp;</b>
+            <select name="month" id="month">
+                <option value="jan">January</option>
+                <option value="feb">February</option>
+                <option value="mar">March</option>
+                <option value="april">April</option>
+                <option value="may">May</option>
+                <option value="june">June</option>
+                <option value="july">July</option>
+                <option value="aug">August</option>
+                <option value="sep">September</option>
+                <option value="oct">October</option>
+                <option value="nov">November</option>
+                <option value="dec">December</option>
+            </select>
+        </div><br>
+
+        <hr style="width: 50%;">
+        <br>
+                <!-- RangeInput Element -->
+        <div align="center">
+            <b>Choose number between 1 to 100:</b>
+            <input type="range" min="1" max="100" step="1" name="no" value="50">
+        </div><br>
+
+        <hr style="width: 50%;">
+        <br>
+                <!-- TextAreaInput Element -->
+        <div align="center">
+            <label for="feedback">Give your feedback about sigma 6.0:&nbsp;</label>
+            <textarea name="feedback" id="feedback" placeholder="Enter here"></textarea>
+        </div><br>
+
+        <hr style="width: 50%;">
+        <br>
+                <!-- Button Input Element -->
+        <div align="center">
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </div>
+
+
+    </form>
+</body>
+
+</html>
